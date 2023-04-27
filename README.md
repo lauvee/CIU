@@ -1,4 +1,4 @@
 # CIU
 ### Estudiante: Laura Novas 
 
-Actividades HTML y CSS opcionales correspondientes a la Semana 1. 
+Todas las actividades y tareas del semestre :)
