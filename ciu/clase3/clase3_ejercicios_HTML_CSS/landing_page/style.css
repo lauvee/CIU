@@ -1,0 +1,19 @@
+#id {
+    width: 80%;
+    margin: 0 auto;
+}
+
+img {
+    width: 30%;
+    margin: 1.4%;
+}
+
+p {
+    font-family: 'Kosugi Maru', sans-serif;
+    margin-left: 1.4%;
+    font-size: 40px;
+    text-transform: uppercase;
+    border-bottom: 2px solid red;
+    padding-bottom: 10px;
+    width: 50%;
+}

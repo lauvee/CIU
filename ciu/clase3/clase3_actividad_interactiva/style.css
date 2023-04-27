@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@600&display=swap');
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'EB Garamond', serif;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li:first-child {
+    margin-bottom: 10px;
+}
+
+a {
+    margin-bottom: 10px;
+}
+

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PetBook</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div class="min-h-screen p-6 bg-gray-100 flex items-center justify-center">
+      <div class="container max-w-screen-lg mx-auto">
+        <div>
+          <h2 class="font-semibold text-xl text-gray-600 text-center">
+            Bienvenido/a a PetBook
+          </h2>
+          <p class="text-gray-500 mb-6 text-center">
+            Ven y hazte parte de la familia!
+          </p>
+
+          <div class="bg-white rounded shadow-lg p-4 px-4 md:p-8 mb-6">
+            <div class="grid gap-4 gap-y-2 text-sm grid-cols-1 lg:grid-cols-3">
+              <div
+                class="text-gray-600"
+                style="
+                  background-image: url('https://source.unsplash.com/Mv9hjnEUHR4/600x600');
+                "
+              >
+                <p class="font-medium p-4 text-lg text-white">
+                  Personal Details
+                </p>
+                <p class="p-4 text-lg text-white">
+                  PetBook es una red social para amantes de los animales donde
+                  podrás compartir fotos y consejos sobre cuidado y bienestar de
+                  tus mascotas.
+                </p>
+              </div>
+
+              <div class="lg:col-span-2">
+                <div
+                  class="grid gap-4 gap-y-2 text-sm grid-cols-1 md:grid-cols-5"
+                >
+                  <div class="md:col-span-5">
+                    <label for="nombre-mascota">Nombre de la mascota</label>
+                    <input
+                      type="text"
+                      name="nombre-mascota"
+                      id="nombre-mascota"
+                      class="h-10 border mt-1 rounded px-4 w-full bg-gray-50"
+                      placeholder="Ej: Firulais"
+                      required
+                      pattern="[a-zA-ZáéíóúÁÉÍÓÚñÑ\s]{2,50}"
+                      title="Ingrese un nombre válido (de 2 a 50 caracteres, sin números ni caracteres especiales)"
+                    />
+                  </div>
+
+                  <div class="md:col-span-3">
+                    <label for="Nacionalidad-de-la-mascota"
+                      >Nacionalidad de la mascota
+                    </label>
+                    <input
+                      type="text"
+                      name="Nacionalidad de la mascota"
+                      id="Nacionalidad de la mascota"
+                      class="h-10 border mt-1 rounded px-4 w-full bg-gray-50"
+                      placeholder="Ej: Dominicana"
+                      required
+                    />
+                  </div>
+
+                  <div class="md:col-span-2">
+                    <label for="Edad">Edad de la mascota</label>
+                    <input
+                      type="number"
+                      name="Edad"
+                      id="Edad"
+                      class="h-10 border mt-1 rounded px-4 w-full bg-gray-50"
+                      min="0"
+                      max="30"
+                      placeholder="Ej: 5"
+                      required
+                    />
+                  </div>
+
+                  <div class="md:col-span-5">
+                    <label for="email">Correo del usuario</label>
+                    <input
+                      type="text"
+                      name="email"
+                      id="email"
+                      class="h-10 border mt-1 rounded px-4 w-full bg-gray-50"
+                      placeholder="Ej: ejemplo@gmail.com"
+                      required
+                    />
+                  </div>
+
+                  <div class="md:col-span-3">
+                    <label for="password-usuario">Contraseña del usuario</label>
+                    <input
+                      type="text"
+                      name="password-usuario"
+                      id="password-usuario"
+                      class="h-10 border mt-1 rounded px-4 w-full bg-gray-50"
+                      placeholder="    ************"
+                      required
+                      minlength="8"
+                      title="La contraseña debe tener al menos 8 caracteres"
+                    />
+                  </div>
+
+                  <div class="md:col-span-2">
+                    <label for="color-mascota">Color de la mascota:</label>
+                    <input
+                      type="color"
+                      name="color-mascota"
+                      id="color-mascota"
+                      class="h-10 border mt-1 rounded px-4 w-full bg-gray-50"
+                      value="#EDB506"
+                      required
+                    />
+                  </div>
+                </div>
+                <br />
+
+                <div class="mb-6 text-center">
+                  <button
+                    class="w-full px-4 py-2 font-bold text-white bg-blue-500 rounded-full hover:bg-blue-700 focus:outline-none focus:shadow-outline"
+                    type="button"
+                  >
+                    Registrate
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
