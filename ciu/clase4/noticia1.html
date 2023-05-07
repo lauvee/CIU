@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato|Staatliches"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 768px)"
+      href="css/mobile.css"
+    />
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <title>Bugbusters News</title>
+  </head>
+  <body>
+    <nav id="main-nav">
+      <div class="container">
+        <input type="checkbox" id="check" />
+        <label for="check" class="checkbtn">
+          <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo">Bugbusters News</label>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a class="active" href="#">Noticias</a></li>
+          <li><a href="#">Deportes</a></li>
+          <li><a href="#">Tecnología</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <section id="article">
+      <div class="container">
+        <div class="page-container">
+          <article class="card">
+            <img src="img/articles/ent1.jpg" alt="" />
+            <h1 class="l-heading">
+              Real Madrid se impone al Osasuna y conquista la Copa del Rey
+            </h1>
+            <div class="meta">
+              <small>
+                <i class="fas fa-user"></i> MADRID, España - may. 06, 2023 |
+                06:31 p. m. | 4 min de lectura
+              </small>
+              <div class="category category-sports">Deporte</div>
+            </div>
+            <p>
+              Rodrygo Goes apareció un par de veces en el área para convertir
+              las dianas con las que el Real Madrid puso fin a su ayuno de nueve
+              años sin conquistar la Copa del Rey.
+            </p>
+            <p>
+              La conexión brasileña de Rodrygo-Vinicius Junior brilló el sábado
+              para darles a los merengues su tercer título de la temporada, al
+              imponerse 2-1 sobre ell Osasuna en el campo de La Cartuja de
+              Sevilla.
+            </p>
+            <p>
+              Rodrygo abrió la cuenta antes de cumplirse dos minutos, cuando
+              remató frente al arco una diagonal desde la línea final que le
+              prodigó Vinicius. El balón pasó entre varias piernas antes de
+              convertirse en una asistencia.
+            </p>
+            <p>
+              Lucas Torró alimentó las esperanzas del conjunto navarro de
+              obtener su primer título en el fútbol español al emparejar a los
+              58, con un disparo junto al poste desde la medialuna.
+            </p>
+            <p>
+              Rodrygo volvió a marcar diferencia a los 70 con su doblete, en una
+              acción que nació en un nuevo desborde de Vinicius, quien sacó una
+              diagonal que despejó mal la zaga antes de que el esférico llegara
+              a merced del extremo brasileño.
+            </p>
+            <p>
+              "Estoy muy contento. Estábamos hablando de esto esta semana, de
+              que el equipo tenía mucho tiempo de no ganar este título", comentó
+              Rodrygo. "Siempre había dicho que este título lo quería ganar
+              porque era el único que me faltaba".
+            </p>
+            <p>
+              Los blancos gozaron de su primer título en este torneo copero
+              desde el que conquistaron en 2014 tras vencer al Barcelona por
+              2-1, cuando también estaba en el banquillo el italiano Carlo
+              Ancelotti. Para Osasuna fue un amargo revés en su segunda final de
+              la Copa del Rey, que perdió como la de la temporada 2004-2005 ante
+              el Betis (2-1, en tiempo extra).
+            </p>
+          </article>
+
+          <aside id="categories" class="card">
+            <h2>Categorias</h2>
+            <ul class="list">
+              <li>
+                <a href="#"><i class="fas fa-chevron-right"></i> Deportes</a>
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fas fa-chevron-right"></i> Entretenimiento</a
+                >
+              </li>
+              <li>
+                <a href="#"><i class="fas fa-chevron-right"></i> Tecnologia</a>
+              </li>
+              <li>
+                <a href="#"><i class="fas fa-chevron-right"></i> Moda</a>
+              </li>
+              <li>
+                <a href="#"><i class="fas fa-chevron-right"></i> Compras</a>
+              </li>
+            </ul>
+          </aside>
+
+          <aside class="card bg-secondary">
+            <h2>Unete a la Newsletter</h2>
+            <p>No te pierdas ni una información y unete a nuestro newsletter</p>
+            <a href="#" class="btn btn-dark btn-block">Unete Ya</a>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="main-footer" class="py-2">
+      <br />
+      <div class="container footer-container">
+        <div>
+          <h2 class="text-4xl tracking-tight font-bold text-primary-800">
+            Bugbusters News
+          </h2>
+          <p>Somos numero uno en noticias del momento, somos bugbusters!</p>
+          <br />
+        </div>
+        <div>
+          <h3>Email Newsletter</h3>
+          <p>
+            Conocé todas las opciones del contenido que podés recibir en tu
+            correo. Noticias, cultura, ciencia, economía, diversidad, lifestyle
+            y mucho más, con la calidad de información del Grupo Octubre, el
+            motor cultural de América Latina.
+          </p>
+          <br />
+          <form name="contact" action="POST" data-netlify="true">
+            <input name="email" type="email" placeholder="Enter Email..." />
+            <input type="submit" value="Suscribete" class="btn btn-primary" />
+          </form>
+        </div>
+        <div>
+          <h3>Site Links</h3>
+          <ul class="list">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Sobre Nosotros</a></li>
+            <li><a href="#">Contactos</a></li>
+          </ul>
+        </div>
+        <div>
+          <p>Copyright &copy; 2023, All Rights Reserved</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
