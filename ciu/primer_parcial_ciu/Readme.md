@@ -16,3 +16,6 @@ Para lograr esto, se utilizó HTML como lenguaje de marcado para la estructura d
 Además, se utilizó JavaScript y el framework de Alpine.js para la funcionalidad interactiva de la página, lo que permitió agregar características como el modo oscuro, un menú pegajoso, la navegación abierta y el desplazamiento de la página.
 
 En resumen, este proyecto es un ejemplo de cómo se pueden utilizar varias tecnologías para crear una página web moderna y funcional que proporcione información y permita la interacción con los usuarios.
+
+#### Contribución
+- Laura Novas 
